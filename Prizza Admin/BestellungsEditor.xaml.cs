@@ -165,7 +165,7 @@ namespace Prizza_Admin
                 string result = Regex.Match(CurrentSelection, pattern).Value;
                 zuschlag += Convert.ToDouble(result);
                 ExtraZutatenComboBox.SelectedIndex = -1;
-                bAddExtraZutat.IsEnabled = false;s
+                bAddExtraZutat.IsEnabled = false;
             }
             
         }
