@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `Username`, `Password`) VALUES
-(1, 'lahmichine', 'nigger1');
+(1, 'lahmichine', '123');
 
 -- --------------------------------------------------------
 
@@ -110,11 +110,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`NachName`, `Vorname`) VALUES
-('Damjan Ziconigger', 'Niggerwigger'),
-('Damjan Ziconigger', 'Niggerwigger'),
-('Damjan Ziconigger', 'Niggerwigger'),
-('Damjan Ziconigger', 'Niggerwigger'),
-('Damjan Ziconigger', 'Niggerwigger');
+('Guido', 'Zurbrugg'),
+('Max', 'Mustermann');
 
 --
 -- Indexes for dumped tables
